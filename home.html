@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Home</title>
+            <link
+             rel="stylesheet"
+             href="style.css">
+            <script src="script_to_do_list.js">
+            </script>
+    </head>
+
+    <body>
+        <div class="logo">
+            <a href="home.html"><img src = "logo.jpg"></a>
+        </div>
+        <div class="header">
+            <h2>Exemplery Project</h2>
+        </div>
+        <br/>
+        <div class = "navigation">
+            <nav class="setnevigation">
+                <button class="button"><a class="link" href="#"><p>Todo</p></a></button><br/>
+                <button class="button"><a class="link" href="#"><p>User</p></a></button><br/>
+                <button class="button"><a class="link" href="#"><p>Login</p></a></button>
+            </nav>
+            
+        </div>
+        <div class="todolist">
+                <h2 style="margin:5px">My To Do List</h2>
+                <input type="text" id="job" placeholder="write to add to-do-list">
+                <button onclick="addItem()"><span  class="addBtn">Add</span></button>
+        </div>
+        
+        <div class="matter">
+        <ul id="list">
+
+        </ul>
+        </div>
+        <footer class="footer">
+                <h4>webpage learning by vibhu sharma @ all rights reserved</h4>
+         </footer> 
+    </body> 
+    
+</html>
